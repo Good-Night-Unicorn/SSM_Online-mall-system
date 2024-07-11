@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="zaixianshangchengxitong:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>zaixianshangchengxitong</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="zaixianshangchengxitong.war">
+      <element id="artifact" artifact-name="zaixianshangchengxitong:war exploded" />
+    </root>
+  </artifact>
+</component>
